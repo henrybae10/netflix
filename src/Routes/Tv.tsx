@@ -414,8 +414,12 @@ const BigTitle = styled.h3`
 `;
 
 const BigOverview = styled.p`
+	height: 100px;
 	padding: 20px;
+	overflow: scroll;
 	position: relative;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
 	top: -80px;
 	color: ${(props) => props.theme.white.lighter};
 `;
