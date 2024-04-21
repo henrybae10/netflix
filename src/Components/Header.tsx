@@ -164,7 +164,7 @@ function Header() {
 				</Logo>
 				<Items>
 					<Item>
-						<Link to="/">
+						<Link to="/netflix">
 							Home {homeMatch && <Circle layoutId="circle" />}
 						</Link>
 					</Item>
