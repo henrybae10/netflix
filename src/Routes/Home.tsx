@@ -51,7 +51,7 @@ function Home() {
 		navigate(`/movies/${movieId}`);
 	};
 
-	const onOverlayClick = () => navigate("/");
+	const onOverlayClick = () => navigate("/netflix");
 
 	const clickedMovie =
 		bigMovieMatch?.params.movieId &&

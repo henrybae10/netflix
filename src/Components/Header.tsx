@@ -112,7 +112,7 @@ interface IForm {
 }
 
 function Header() {
-	const homeMatch = useMatch("/");
+	const homeMatch = useMatch("/netflix");
 	const tvMatch = useMatch("/tv");
 
 	const [searchOpen, setSearchOpen] = useState(false);
